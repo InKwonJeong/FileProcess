@@ -146,7 +146,6 @@ public class BTree {
 		}
 	}
 
-	// M이 5 이상도 가능하게 수정
 	private void mergeBT(BTreeNode p) {
 		BTreeNode parent = p.getParent();
 		BTreeNode mergeNode;
